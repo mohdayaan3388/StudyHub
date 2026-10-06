@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Review high-priority engineering exam questions, organized by subject.">
+    <meta name="theme-color" content="#07111f">
+    <title>StudyHub | Important Questions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Study<span>Hub</span></div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="notes.html">Notes</a>
+            <a href="pyqs.html">PYQs</a>
+            <a href="important-questions.html" class="active">Important Questions</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="page-shell">
+            <div class="page-heading">
+                <p class="eyebrow">EXAM FOCUS</p>
+                <h1>⭐ Important Questions</h1>
+                <p>Focus revision with curated question sets for your subjects.</p>
+            </div>
+
+            <div class="search-wrap">
+                <label class="visually-hidden" for="subjectSearch">Search important questions</label>
+                <input id="subjectSearch" type="search" placeholder="Search subjects..." autocomplete="off">
+            </div>
+            <p class="resource-count" id="resourceCount" aria-live="polite">Showing all subjects</p>
+
+            <div class="subject-grid">
+
+                <article class="subject-card" data-search="data structures algorithms arrays trees graphs">
+                    <div class="subject-icon">📊</div>
+                    <h2>Data Structures</h2>
+                    <ul class="unit-list">
+                        <li><a href="important%20question/Data%20Structure/DS%20imp%20questions.pdf" target="_blank" rel="noopener noreferrer">Open question set →</a></li>
+                        
+                    </ul>
+                </article>
+
+                <article class="subject-card" data-search="dstl discrete structures theory logic mathematics">
+                    <div class="subject-icon">🧮</div>
+                    <h2>DSTL</h2>
+                    <ul class="unit-list">
+                        <li><a href="important%20question/DSTL/DSTL%20imp%20questions.pdf" target="_blank" rel="noopener noreferrer">Open question set →</a></li>
+                    </ul>
+                    
+                </article>
+
+                <article class="subject-card" data-search="technical communication writing presentation">
+                    <div class="subject-icon">🗣️</div>
+                    <h2>Technical Communication</h2>
+                    <ul class="unit-list">
+                        <li><a href="important%20question/Technical%20Communication/Technical%20Communication%20imp%20questions.pdf" target="_blank" rel="noopener noreferrer">Open question set →</a></li>
+                    </ul>
+                </article>
+
+                <article class="subject-card" data-search="computer organization architecture coa cpu memory">
+                    <div class="subject-icon">🖥️</div>
+                    <h2>Computer Organization &amp; Architecture</h2>
+                    <ul class="unit-list">
+                        <li><a href="important%20question/COA/COA%20imp%20questions.pdf" target="_blank" rel="noopener noreferrer">Open question set →</a></li>
+                    </ul>
+                </article>
+                <p class="empty-state" id="emptyState" hidden>No subjects match that search. Try another keyword.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> StudyHub. Made for students.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
